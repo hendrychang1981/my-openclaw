@@ -1,0 +1,40 @@
+{
+  "name": "my-openclaw",
+  "version": "1.0.0",
+  "description": "My personal OpenClaw project for learning and experimentation",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node src/index.js",
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"Build process not yet configured\"",
+    "lint": "eslint src/",
+    "format": "prettier --write src/"
+  },
+  "keywords": [
+    "openclaw",
+    "ai-assistant",
+    "automation",
+    "personal-assistant"
+  ],
+  "author": "hendrychang1981",
+  "license": "MIT",
+  "dependencies": {
+    "openclaw": "^2026.3.13"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "prettier": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hendrychang1981/my-openclaw.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hendrychang1981/my-openclaw/issues"
+  },
+  "homepage": "https://github.com/hendrychang1981/my-openclaw#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
